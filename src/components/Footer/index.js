@@ -101,7 +101,7 @@ function Footer() {
 							aria-label='Instagram'>
 							<FaInstagram />
 						</Link>
-						{/* <Link
+						<Link
 							className='social-icon-link'
 							to={
 								'//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
@@ -109,7 +109,7 @@ function Footer() {
 							target='_blank'
 							aria-label='Youtube'>
 							<FaYoutube />
-						</Link> */}
+						</Link>
 
 						<Link
 							className='social-icon-link'
