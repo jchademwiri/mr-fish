@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
+const [navbar, setNavbar] = useState(false);
 
 import { Button } from '../Button';
 
@@ -27,6 +28,12 @@ const Navbar = () => {
 	}, []);
 
 	window.addEventListener('resize', showButton);
+
+	const changeBackground = () => {
+		if (window.scrollY >= 80) {
+			setNavbar();
+		}
+	};
 
 	return (
 		<>
