@@ -1,6 +1,7 @@
+import React from 'react';
 import './Button.css';
 
-const STYLES = ['btn--outline', 'btn--primary'];
+const STYLES = ['btn--primary','btn--outline'];
 
 const SIZES = ['btn--mobile', 'btn--medium', 'btn--large', 'btn--wide'];
 

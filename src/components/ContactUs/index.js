@@ -1,3 +1,4 @@
+import React from 'react';
 import Location from '../Location.js';
 
 const ContactUs = () => {
