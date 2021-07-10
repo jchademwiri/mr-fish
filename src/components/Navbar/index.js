@@ -4,13 +4,12 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
-const [navbar, setNavbar] = useState(false);
-
 import { Button } from '../Button';
 
 const Navbar = () => {
 	const [click, setClick] = useState(false);
 	const [button, setButton] = useState(true);
+	const [navbar, setNavbar] = useState(true);
 
 	const handleClick = () => setClick(!click);
 	const closeMobileMenu = () => setClick(false);
@@ -31,14 +30,20 @@ const Navbar = () => {
 
 	const changeBackground = () => {
 		if (window.scrollY >= 80) {
-			setNavbar();
+			setNavbar(true);
+			console.log(window.scrollY);
+		} else if (window.scrollY <= 80) {
+			setNavbar(false);
+		} else {
+			setNavbar(false);
 		}
 	};
+	window.addEventListener('scroll', changeBackground);
 
 	return (
 		<>
 			<IconContext.Provider value={{ color: '#fff' }}>
-				<div className='navbar'>
+				<div className={navbar ? 'navbar active' : 'navbar'}>
 					<div className='navbar-container container'>
 						<Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
 							<MdFingerprint className='navbar-icon' />
@@ -48,7 +53,7 @@ const Navbar = () => {
 							{click ? <FaTimes /> : <FaBars />}
 						</div>
 
-						<ul className={click ? 'nav-menu active' : 'nav-menu'}>
+						<ul className={click ? 'nav-menu active count' : 'nav-menu'}>
 							<li className='nav-item'>
 								<Link to='/' className='nav-links' onClick={closeMobileMenu}>
 									Home
@@ -57,7 +62,7 @@ const Navbar = () => {
 							<li className='nav-item'>
 								<Link
 									to='/letscook'
-									className='nav-links'
+									className='nav-links '
 									onClick={closeMobileMenu}>
 									Let's Cook
 								</Link>
