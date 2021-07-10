@@ -1,5 +1,6 @@
 .navbar {
 	margin-top: -80px;
+	transition: all 0.6s ease;
 	background: transparent;
 	height: 80px;
 	display: flex;

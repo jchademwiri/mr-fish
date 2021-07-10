@@ -41,7 +41,7 @@ const Info = ({
 									}>
 									{description}
 								</p>
-								<Link to='/order'>
+								<Link to='/'>
 									<Button buttonSize='btn--wide' buttonColor='blue'>
 										{buttonLabel}
 									</Button>

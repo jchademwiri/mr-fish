@@ -6,7 +6,7 @@ const Hero = () => {
 	return (
 		<>
 			<div className='hero-container'>
-				<video src='/videos/video-1.mp4' autoPlay loop muted />
+				{/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
 				<h1>HEALTHY MEALS AWAITS</h1>
 				<p>What are you waiting for?</p>
 				<div className='hero-btns'>
@@ -19,7 +19,8 @@ const Hero = () => {
 					<Button
 						className='btns'
 						buttonStyle='btn--primary'
-						buttonSize='btn--large'>
+						buttonSize='btn--wide'
+						buttonColor='blue'>
 						PLACE ORDER <i className='far fa-play-circle' />
 					</Button>
 				</div>

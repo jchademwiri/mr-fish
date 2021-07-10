@@ -60,26 +60,17 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li className='nav-item'>
-								<Link
-									to='/letscook'
-									className='nav-links '
-									onClick={closeMobileMenu}>
+								<Link to='/' className='nav-links ' onClick={closeMobileMenu}>
 									Let's Cook
 								</Link>
 							</li>
 							<li className='nav-item'>
-								<Link
-									to='/about'
-									className='nav-links'
-									onClick={closeMobileMenu}>
+								<Link to='/' className='nav-links' onClick={closeMobileMenu}>
 									About
 								</Link>
 							</li>
 							<li className='nav-item'>
-								<Link
-									to='/contact'
-									className='nav-links'
-									onClick={closeMobileMenu}>
+								<Link to='/' className='nav-links' onClick={closeMobileMenu}>
 									Contact
 								</Link>
 							</li>
@@ -91,7 +82,7 @@ const Navbar = () => {
 										</Button>
 									</Link>
 								) : (
-									<Link to='/order' className='btn-link'>
+									<Link to='/' className='btn-link'>
 										<Button
 											buttonStyle='btn--outline'
 											buttonSize='btn--mobile'
