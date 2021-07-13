@@ -5,6 +5,7 @@ const Recipe = () => {
 		<>
 			<div className='recipe'>
 				<h1>Recipies Blog</h1>
+				<h2>Recipies comming soon</h2>
 			</div>
 		</>
 	);
