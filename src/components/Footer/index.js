@@ -26,7 +26,7 @@ function Footer() {
 					<Button buttonSize='btn--wide' buttonColor='green'>
 						<a
 							className='whatsapp-link'
-							href='https://wa.me/message/B5YXATOYPZKCJ1'
+							href='https://chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'
 							target='blank'
 							rel='noopener noreferrer'>
 							<FaWhatsapp className='social-icon-link WIcon' />
