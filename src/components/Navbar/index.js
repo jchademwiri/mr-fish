@@ -60,17 +60,26 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li className='nav-item'>
-								<Link to='/' className='nav-links ' onClick={closeMobileMenu}>
+								<Link
+									to='/letscook'
+									className='nav-links '
+									onClick={closeMobileMenu}>
 									Let's Cook
 								</Link>
 							</li>
-							<li className='nav-item'>
-								<Link to='/' className='nav-links' onClick={closeMobileMenu}>
+							{/* <li className='nav-item'>
+								<Link
+									to='/about'
+									className='nav-links'
+									onClick={closeMobileMenu}>
 									About
 								</Link>
-							</li>
+							</li> */}
 							<li className='nav-item'>
-								<Link to='/' className='nav-links' onClick={closeMobileMenu}>
+								<Link
+									to='/contact'
+									className='nav-links'
+									onClick={closeMobileMenu}>
 									Contact
 								</Link>
 							</li>

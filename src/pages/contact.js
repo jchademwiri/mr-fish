@@ -1,10 +1,10 @@
 import React from 'react';
-import ContactUs from '../components/ContactUs';
+import Location from '../components/Location';
 
 const Contact = () => {
 	return (
 		<>
-			<ContactUs />
+			<Location />
 		</>
 	);
 };

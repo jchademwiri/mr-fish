@@ -9,6 +9,7 @@ const Info = ({
 	lightTextDesc,
 	headline,
 	description,
+	url,
 	buttonLabel,
 	imgStart,
 	img,
@@ -41,7 +42,7 @@ const Info = ({
 									}>
 									{description}
 								</p>
-								<Link to='/'>
+								<Link to={url}>
 									<Button buttonSize='btn--wide' buttonColor='blue'>
 										{buttonLabel}
 									</Button>

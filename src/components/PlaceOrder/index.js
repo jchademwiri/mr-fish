@@ -3,7 +3,9 @@ import './PlaceOrder.css';
 const Orders = () => {
 	return (
 		<>
-			<h2>Place your Orders</h2>
+			<div className='order'>
+				<h1>Place your Orders here</h1>
+			</div>
 		</>
 	);
 };

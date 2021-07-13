@@ -1,7 +1,11 @@
+import React from 'react';
+import './Recipe.css';
 const Recipe = () => {
 	return (
 		<>
-			<h1>Recipe</h1>
+			<div className='recipe'>
+				<h1>Recipies Blog</h1>
+			</div>
 		</>
 	);
 };
