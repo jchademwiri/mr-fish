@@ -3,7 +3,7 @@ import './Location.css';
 const Location = () => {
 	return (
 		<>
-			<div className='location'>{/* <h1>Find Us</h1> */}</div>
+			<div className='location'>{/* <h1>Location</h1> */}</div>
 		</>
 	);
 };
