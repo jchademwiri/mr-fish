@@ -24,7 +24,7 @@ export const homeObjTwo = {
 	buttonLabel: "Let's Get Cooking",
 	url: '/letscook',
 	imgStart: 'start',
-	img: 'images/fish-filets.jpg',
+	img: 'images/fish-filets.png',
 	alt: 'Vault',
 };
 
