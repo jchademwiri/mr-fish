@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { MdFingerprint } from 'react-icons/md';
 import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 import {
@@ -9,28 +10,29 @@ import {
 	FaWhatsapp,
 	FaLinkedin,
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
 
 function Footer() {
 	return (
 		<div className='footer-container'>
 			<section className='footer-subscription'>
 				<p className='footer-subscription-heading'>
-					Join our exclusive membership to receive the latest news and trends
+					Join our exclusive membership WhatsApp Group for free to receive the
+					latest news and recepies
 				</p>
-				<p className='footer-subscription-text'>
-					You can unsubscribe at any time.
-				</p>
+				<i className='footer-subscription-text'>
+					You can also place your orders quickly.
+				</i>
 				<div className='input-areas'>
-					<form>
-						<input
-							className='footer-input'
-							name='email'
-							type='email'
-							placeholder='Your Email'
-						/>
-						<Button buttonStyle='btn--outline'>Subscribe</Button>
-					</form>
+					<Button buttonSize='btn--wide' buttonColor='green'>
+						<a
+							className='whatsapp-link'
+							href='https://chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'
+							target='blank'
+							rel='noopener noreferrer'>
+							<FaWhatsapp className='social-icon-link WIcon' />
+							Join WhatsApp Group
+						</a>
+					</Button>
 				</div>
 			</section>
 			<div className='footer-links'>
@@ -72,7 +74,7 @@ function Footer() {
 				<div className='social-media-wrap'>
 					<div className='footer-logo'>
 						<Link to='/' className='social-logo'>
-							<MdFingerprint className='navbar-icon' />
+							<MdFingerprint />
 							MR FISH
 						</Link>
 					</div>

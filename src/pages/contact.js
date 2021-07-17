@@ -1,9 +1,10 @@
 import React from 'react';
+import Location from '../components/Location';
 
 const Contact = () => {
 	return (
 		<>
-			<h1>Contact us</h1>
+			<Location />
 		</>
 	);
 };

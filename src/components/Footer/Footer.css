@@ -98,6 +98,13 @@
 	font-size: 24px;
 }
 
+.whatsapp-link {
+	display: flex;
+}
+.WIcon {
+	margin-right: 10px;
+}
+
 .social-media {
 	max-width: 1000px;
 	width: 100%;

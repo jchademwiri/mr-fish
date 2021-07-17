@@ -1,8 +1,11 @@
 import React from 'react';
+import './Location.css';
 const Location = () => {
 	return (
 		<>
-			<h3>Find Us</h3>
+			<div className='location'>
+				<h1>Find Us</h1>
+			</div>
 		</>
 	);
 };
