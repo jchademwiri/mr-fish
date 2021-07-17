@@ -79,33 +79,52 @@ const ContactDetails = () => {
 				</div>
 				<div className='right-container '>
 					<div className='contained'>
-						<input
-							type='text'
-							name='firstName'
-							id='name'
-							placeholder='First Name'
-						/>
-						<input
-							type='text'
-							name='lastName'
-							id='name'
-							placeholder='Last Name'
-						/>
+						<div className='form-input'>
+							<label htmlFor='firstname'>First Name</label>
+							<input
+								type='text'
+								name='firstName'
+								id='firstname'
+								placeholder='First Name'
+							/>
+						</div>
+						<div className='form-input'>
+							<label htmlFor='lastname'>Last Name</label>
+							<input
+								type='text'
+								name='lastName'
+								id='lastname'
+								placeholder='Last Name'
+							/>
+						</div>
 					</div>
 					<div className='contained'>
-						<input
-							type='email'
-							name='email'
-							id='email'
-							placeholder='Email address'
-						/>
-						<input type='tel' name='tel' id='tel' placeholder='Phone Number' />
+						<div className='form-input'>
+							<label htmlFor='email'>Email</label>
+							<input
+								type='email'
+								name='email'
+								id='email'
+								placeholder='Email address'
+							/>
+						</div>
+						<div className='form-input'>
+							<label htmlFor='phone'>Phone</label>
+							<input
+								type='tel'
+								name='phone'
+								id='phone'
+								placeholder='Phone Number'
+							/>
+						</div>
 					</div>
-
-					<textarea
-						name='message'
-						id='message'
-						placeholder='Your Message here'></textarea>
+					<div className='form-input'>
+						<label htmlFor='message'>Your message</label>
+						<textarea
+							name='message'
+							id='message'
+							placeholder='Your Message here'></textarea>
+					</div>
 					<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
 						Send Message
 					</Button>

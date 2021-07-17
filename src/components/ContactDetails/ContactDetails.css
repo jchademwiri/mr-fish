@@ -40,6 +40,7 @@ small {
 }
 .right-container {
 	width: 100%;
+	color: black;
 }
 .left-container > .social-icons {
 	padding: 0 20px;
@@ -50,6 +51,9 @@ small {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 5px;
+}
+.form-input {
+	margin: 5px;
 }
 input,
 textarea {
