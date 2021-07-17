@@ -75,7 +75,7 @@ textarea:focus {
 span > .icon {
 	margin: 10px;
 }
-.btn--wide {
+button .full_width {
 	width: 100%;
 }
 
