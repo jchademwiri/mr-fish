@@ -76,6 +76,14 @@ function Footer() {
 							MR FISH
 						</Link>
 					</div>
+					{/* <div className='designer'>
+						<div className='footer-logo'>
+							Designed by:
+							<a href='#' target='_blank' rel='noopener noreferrer'>
+								Jacob Chademwiri
+							</a>
+						</div>
+					</div> */}
 					<small className='website-rights'>
 						MR FISH &copy; {new Date().getFullYear()}
 					</small>
