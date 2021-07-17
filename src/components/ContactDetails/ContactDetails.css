@@ -41,6 +41,10 @@ small {
 .right-container {
 	width: 100%;
 }
+.left-container > .social-icons {
+	padding: 0 20px;
+	width: 100%;
+}
 
 .contained {
 	display: grid;
@@ -51,14 +55,10 @@ input,
 textarea {
 	padding: 5px;
 	margin: 5px;
-	/* opacity: 0.2; */
-	/* background-color: rgb(255, 255, 255); */
 	background: transparent;
 	border: none;
-	color: #fff;
 	width: 100%;
 	height: 40px;
-
 	border-bottom: 1px solid #276afb;
 }
 textarea {
@@ -84,6 +84,9 @@ span > .icon {
 	}
 	.conact-details-container {
 		width: 100%;
+	}
+	textarea {
+		height: 100px;
 	}
 }
 
