@@ -78,7 +78,8 @@ const ContactDetails = () => {
 					</div>
 				</div>
 				<div className='right-container '>
-					<form>
+					<form name='contact-form' method='POST' data-netlify='true'>
+						<input type='hidden' name='form-name' value='contact-form' />
 						<div className='contained'>
 							<div className='form'>
 								<input
@@ -106,6 +107,8 @@ const ContactDetails = () => {
 									Last Name
 								</label>
 							</div>
+						</div>
+						<div className='contained'>
 							<div className='form'>
 								<input
 									className='form__input'
