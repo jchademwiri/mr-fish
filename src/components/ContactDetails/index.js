@@ -26,11 +26,11 @@ const ContactDetails = () => {
 					</small>
 					<span>
 						<FaPhone className='icon' />
-						<a href='tel:+63772850334'>0772 850 334</a>
+						<a href='tel:+263772850334'>0772 850 334</a>
 					</span>
 					<span>
 						<FaEnvelope className='icon' />
-						<a href='mailto:jchademwiri@gmail.com'>mrfish@gmail.com</a>
+						<a href='mailto:jchademwiri@gmail.com'>schademuwiri@gmail.com</a>
 					</span>
 					<span>
 						<FaLocationArrow className='icon' />

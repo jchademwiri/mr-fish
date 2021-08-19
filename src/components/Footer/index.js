@@ -24,14 +24,14 @@ function Footer() {
 				</i>
 				<div className='input-areas'>
 					<Button buttonSize='btn--wide' buttonColor='green'>
-						<a
+						<Link
 							className='whatsapp-link'
-							href='https://chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'
+							to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
 							target='blank'
 							rel='noopener noreferrer'>
 							<FaWhatsapp className='social-icon-link WIcon' />
 							Join WhatsApp Group
-						</a>
+						</Link>
 					</Button>
 				</div>
 			</section>
@@ -75,7 +75,7 @@ function Footer() {
 					<div className='footer-logo'>
 						<Link to='/' className='social-logo'>
 							<MdFingerprint />
-							MR FISH
+							SEA HARVEST
 						</Link>
 					</div>
 					{/* <div className='designer'>
@@ -87,19 +87,19 @@ function Footer() {
 						</div>
 					</div> */}
 					<small className='website-rights'>
-						MR FISH &copy; {new Date().getFullYear()}
+						SEA HARVEST &copy; {new Date().getFullYear()}
 					</small>
 					<div className='social-icons'>
 						<Link
 							className='social-icon-link'
-							to='/'
+							to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
 							target='_blank'
 							aria-label='WhatsApp'>
 							<FaWhatsapp />
 						</Link>
 						<Link
 							className='social-icon-link'
-							to='/'
+							to={'//www.facebook.com/seaharvestZW'}
 							target='_blank'
 							aria-label='Facebook'>
 							<FaFacebook />
@@ -114,7 +114,7 @@ function Footer() {
 						<Link
 							className='social-icon-link'
 							to={
-								'//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+								'//www.youtube.com/channel/UCgnCtM2Ih8L5xNXXpBREmEg?sub_confirmation=1'
 							}
 							target='_blank'
 							aria-label='Youtube'>

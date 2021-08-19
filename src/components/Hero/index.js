@@ -7,9 +7,8 @@ const Hero = () => {
 	return (
 		<>
 			<div className='hero-container'>
-			
-				<h1>HEALTHY MEALS AWAITS</h1>
-				<p>What are you waiting for?</p>
+				<h1>SEAN HARVEST</h1>
+				<p>Fresh fish from Kariba, for your good health</p>
 				<div className='hero-btns'>
 					<Link to='/letscook'>
 						<Button
