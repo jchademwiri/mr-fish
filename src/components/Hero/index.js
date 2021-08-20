@@ -18,7 +18,7 @@ const Hero = () => {
 							LETS COOK
 						</Button>
 					</Link>
-					<Link to='/order'>
+					<Link to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}>
 						<Button
 							className='btns'
 							buttonStyle='btn--primary'

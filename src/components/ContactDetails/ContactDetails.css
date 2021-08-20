@@ -27,7 +27,8 @@
 }
 .left-container {
 	background-color: #276afb;
-	border-radius: 5px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 	text-align: left;
 	padding: 10px;
 	display: flex;
@@ -150,6 +151,12 @@ textarea {
 	.main-container {
 		grid-template-columns: 1fr;
 	}
+
+	.left-container {
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0;
+	}
+
 	.conact-details-container {
 		width: 100%;
 	}

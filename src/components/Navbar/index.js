@@ -85,13 +85,17 @@ const Navbar = () => {
 							</li>
 							<li className='nav-btn'>
 								{button ? (
-									<Link to='/order' className='btn-link'>
+									<Link
+										to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
+										className='btn-link'>
 										<Button buttonStyle='btn--outline' buttonSize='btn--medium'>
 											Order Now
 										</Button>
 									</Link>
 								) : (
-									<Link to='/' className='btn-link'>
+									<Link
+										to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
+										className='btn-link'>
 										<Button
 											buttonStyle='btn--outline'
 											buttonSize='btn--mobile'
