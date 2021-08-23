@@ -34,7 +34,7 @@ export const homeObjThree = {
 	lightText: true,
 	lightTextDesc: true,
 	topLine: 'Prepare it the way you like',
-	headline: 'Super fast and Testy',
+	headline: 'Tasty & Delicious',
 	description:
 		"Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
 	buttonLabel: 'Start Now',

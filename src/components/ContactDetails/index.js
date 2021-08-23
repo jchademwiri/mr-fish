@@ -88,6 +88,7 @@ const ContactDetails = () => {
 									id='firstname'
 									autoComplete='off'
 									placeholder=' '
+									required
 								/>
 								<label className='form__label' htmlFor='firstname'>
 									First Name
@@ -101,6 +102,7 @@ const ContactDetails = () => {
 									id='lastname'
 									autoComplete='off'
 									placeholder=' '
+									required
 								/>
 								<label className='form__label' htmlFor='lastname'>
 									Last Name
@@ -116,6 +118,7 @@ const ContactDetails = () => {
 									id='email'
 									autoComplete='off'
 									placeholder=' '
+									required
 								/>
 								<label className='form__label' htmlFor='email'>
 									Email Address
@@ -129,6 +132,7 @@ const ContactDetails = () => {
 									id='phone_number'
 									autoComplete='off'
 									placeholder=' '
+									required
 								/>
 								<label className='form__label' htmlFor='phone_number'>
 									Phone Number
@@ -144,6 +148,7 @@ const ContactDetails = () => {
 								className='text__area'
 								name='message'
 								id='message'
+								required
 								placeholder='Enter Your Message here'></textarea>
 						</div>
 						<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>

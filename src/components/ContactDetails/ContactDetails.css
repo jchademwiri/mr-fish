@@ -84,7 +84,7 @@ button .full_width {
 
 .form {
 	position: relative;
-	width: 20rem;
+	width: 90%;
 	height: 3rem;
 	margin: 10px;
 }
@@ -150,6 +150,7 @@ textarea {
 @media screen and (max-width: 991px) {
 	.main-container {
 		grid-template-columns: 1fr;
+		width: 80%;
 	}
 
 	.left-container {
@@ -160,12 +161,19 @@ textarea {
 	.conact-details-container {
 		width: 100%;
 	}
+
+	.conact-details-container > h1 {
+		font-size: 40px;
+	}
 	textarea {
 		height: 100px;
 	}
 }
 
 @media screen and (max-width: 768px) {
+	.main-container {
+		width: 100%;
+	}
 	.contained {
 		grid-template-columns: 1fr;
 	}
