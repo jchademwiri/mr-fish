@@ -5,9 +5,10 @@ export const homeObjOne = {
 	topLine: 'FRESH FISH FROM KARIBA',
 	headline: 'Good Healthy is Life',
 	description:
-		'We give you the best teasty high quality fish you will ever find in Zimbabwe, fresh fron kariba to your door front.',
+		'We give you the best teasty high quality fresh fish you will ever find in Zimbabwe, fresh fronm kariba to your door front around Mutare.',
 	buttonLabel: 'Place Order Now',
-	url: '/order',
+	url: '//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18',
+	target: 'blank',
 	imgStart: '',
 	img: 'images/fresh-breams.png',
 	alt: 'single black bream',
@@ -37,7 +38,8 @@ export const homeObjThree = {
 	description:
 		"Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
 	buttonLabel: 'Start Now',
-	url: '#',
+	url: '//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18',
+	target: 'blank',
 	imgStart: '',
 	img: 'images/lemon-bream.png',
 	alt: 'Vault',
@@ -52,8 +54,8 @@ export const homeObjFour = {
 	description:
 		'We do special order requests, so if you have a special kind of fish you want, you are welcome to to place a special order with us. All you need is to get in touch with us.',
 	buttonLabel: 'Chat with Us',
-	// url: 'https://wa.me/message/B5YXATOYPZKCJ1',
-	url: '/contact',
+	url: '//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18',
+	target: 'blank',
 	imgStart: 'start',
 	img: 'images/red-bream.png',
 	alt: 'single red bream',

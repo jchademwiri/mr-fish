@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+
+import { GiCirclingFish } from 'react-icons/gi';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../Button';
@@ -46,7 +47,7 @@ const Navbar = () => {
 				<div className={navbar ? 'navbar active' : 'navbar'}>
 					<div className='navbar-container container'>
 						<Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-							<MdFingerprint className='navbar-icon' />
+							<GiCirclingFish className='navbar-icon' />
 							SEA HARVEST
 						</Link>
 						<div className='menu-icon' onClick={handleClick}>
@@ -87,7 +88,9 @@ const Navbar = () => {
 								{button ? (
 									<Link
 										to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
-										className='btn-link'>
+										className='btn-link'
+										target='blank'
+										rel='noopener noreferrer'>
 										<Button buttonStyle='btn--outline' buttonSize='btn--medium'>
 											Order Now
 										</Button>
@@ -95,7 +98,9 @@ const Navbar = () => {
 								) : (
 									<Link
 										to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
-										className='btn-link'>
+										className='btn-link'
+										target='blank'
+										rel='noopener noreferrer'>
 										<Button
 											buttonStyle='btn--outline'
 											buttonSize='btn--mobile'

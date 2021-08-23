@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { MdFingerprint } from 'react-icons/md';
 import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 import {
@@ -8,8 +7,10 @@ import {
 	FaInstagram,
 	FaYoutube,
 	FaWhatsapp,
-	FaLinkedin,
+
 } from 'react-icons/fa';
+
+import { GiCirclingFish } from 'react-icons/gi';
 
 function Footer() {
 	return (
@@ -39,16 +40,21 @@ function Footer() {
 				<div className='footer-link-wrapper'>
 					<div className='footer-link-items'>
 						<h2>About Us</h2>
-						<Link to='/sign-up'>How it works</Link>
-						<Link to='/'>Testimonials</Link>
+						<Link to='/'>Home</Link>
+						<Link to='/'>About</Link>
 						{/* <Link to='/'>Careers</Link>
 						<Link to='/'>Investors</Link>
 						<Link to='/'>Terms of Service</Link> */}
 					</div>
 					<div className='footer-link-items'>
 						<h2>Contact Us</h2>
-						<Link to='/'>Contact</Link>
-						<Link to='/'>WhatsApp</Link>
+						<Link to='/contact'>Contact</Link>
+						<Link
+							to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
+							target='blank'
+							aria-label='WhatsApp'>
+							WhatsApp
+						</Link>
 						{/* <Link to='/'>Destinations</Link>
 						<Link to='/'>Sponsorships</Link> */}
 					</div>
@@ -56,15 +62,25 @@ function Footer() {
 				<div className='footer-link-wrapper'>
 					<div className='footer-link-items'>
 						<h2>Our Products</h2>
-						<Link to='/'>Bream</Link>
-						<Link to='/'>Tiger Fish</Link>
+						<Link to='/'>Breams</Link>
+						<Link to='/'>Matemba</Link>
 						{/* <Link to='/'>Agency</Link>
 						<Link to='/'>Influencer</Link> */}
 					</div>
 					<div className='footer-link-items'>
 						<h2>Social Media</h2>
-						<Link to='/'>Instagram</Link>
-						<Link to='/'>Facebook</Link>
+						<Link
+							to={'//www.facebook.com/seaharvestZW'}
+							target='_blank'
+							aria-label='Facebook'>
+							Facebook
+						</Link>
+						<Link
+							to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
+							target='blank'
+							aria-label='WhatsApp'>
+							WhatsApp
+						</Link>
 						{/* <Link to='/'>Youtube</Link>
 						<Link to='/'>Twitter</Link> */}
 					</div>
@@ -74,7 +90,7 @@ function Footer() {
 				<div className='social-media-wrap'>
 					<div className='footer-logo'>
 						<Link to='/' className='social-logo'>
-							<MdFingerprint />
+							<GiCirclingFish className='navbar-icon' />
 							SEA HARVEST
 						</Link>
 					</div>
@@ -93,7 +109,7 @@ function Footer() {
 						<Link
 							className='social-icon-link'
 							to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
-							target='_blank'
+							target='blank'
 							aria-label='WhatsApp'>
 							<FaWhatsapp />
 						</Link>
@@ -106,7 +122,7 @@ function Footer() {
 						</Link>
 						<Link
 							className='social-icon-link'
-							to='/'
+							to={'//instagram.com/playhousemediatech/'}
 							target='_blank'
 							aria-label='Instagram'>
 							<FaInstagram />
@@ -121,13 +137,13 @@ function Footer() {
 							<FaYoutube />
 						</Link>
 
-						<Link
+						{/* <Link
 							className='social-icon-link'
 							to='/'
 							target='_blank'
 							aria-label='LinkedIn'>
 							<FaLinkedin />
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</section>

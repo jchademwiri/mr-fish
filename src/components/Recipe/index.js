@@ -4,8 +4,7 @@ const Recipe = () => {
 	return (
 		<>
 			<div className='recipe'>
-				<h1>Recipies Blog</h1>
-				<h2>Recipies comming soon</h2>
+				<h1>Recipies Blog Coming Soon</h1>
 			</div>
 		</>
 	);

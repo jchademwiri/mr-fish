@@ -4,8 +4,7 @@ const Orders = () => {
 	return (
 		<>
 			<div className='order'>
-				<h1>Place your Orders here</h1>
-				<h2>Orders coming soon</h2>
+				<h1>Online Orders Coming Soon</h1>
 			</div>
 		</>
 	);

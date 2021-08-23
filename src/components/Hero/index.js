@@ -7,8 +7,8 @@ const Hero = () => {
 	return (
 		<>
 			<div className='hero-container'>
-				<h1>SEAN HARVEST</h1>
-				<p>Fresh fish from Kariba, for your good health</p>
+				<h1>SEA HARVEST</h1>
+				<p>Fresh fish from Kariba, for your good health.</p>
 				<div className='hero-btns'>
 					<Link to='/letscook'>
 						<Button
@@ -18,7 +18,10 @@ const Hero = () => {
 							LETS COOK
 						</Button>
 					</Link>
-					<Link to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}>
+					<Link
+						to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
+						target='blank'
+						rel='noopener noreferrer'>
 						<Button
 							className='btns'
 							buttonStyle='btn--primary'

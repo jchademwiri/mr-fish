@@ -14,6 +14,7 @@ const Info = ({
 	imgStart,
 	img,
 	alt,
+	target,
 }) => {
 	return (
 		<>
@@ -42,7 +43,7 @@ const Info = ({
 									}>
 									{description}
 								</p>
-								<Link to={url}>
+								<Link to={url} target={target}>
 									<Button buttonSize='btn--wide' buttonColor='blue'>
 										{buttonLabel}
 									</Button>

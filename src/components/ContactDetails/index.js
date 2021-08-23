@@ -7,7 +7,6 @@ import {
 	FaInstagram,
 	FaYoutube,
 	FaWhatsapp,
-	FaLinkedin,
 	FaPhone,
 	FaEnvelope,
 	FaLocationArrow,
@@ -39,21 +38,21 @@ const ContactDetails = () => {
 					<div className='social-icons'>
 						<Link
 							className='social-icon-link'
-							to='/'
+							to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
 							target='_blank'
 							aria-label='WhatsApp'>
 							<FaWhatsapp />
 						</Link>
 						<Link
 							className='social-icon-link'
-							to='/'
+							to={'//facebook.com/seaharvestZW/'}
 							target='_blank'
 							aria-label='Facebook'>
 							<FaFacebook />
 						</Link>
 						<Link
 							className='social-icon-link'
-							to='/'
+							to={'//instagram.com/playhousemediatech/'}
 							target='_blank'
 							aria-label='Instagram'>
 							<FaInstagram />
@@ -61,20 +60,20 @@ const ContactDetails = () => {
 						<Link
 							className='social-icon-link'
 							to={
-								'//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+								'//www.youtube.com/channel/UCgnCtM2Ih8L5xNXXpBREmEg?sub_confirmation=1'
 							}
 							target='_blank'
 							aria-label='Youtube'>
 							<FaYoutube />
 						</Link>
 
-						<Link
+						{/* <Link
 							className='social-icon-link'
 							to='/'
 							target='_blank'
 							aria-label='LinkedIn'>
 							<FaLinkedin />
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 				<div className='right-container '>
