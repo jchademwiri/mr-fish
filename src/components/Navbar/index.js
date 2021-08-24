@@ -50,7 +50,7 @@ const Navbar = () => {
 							<GiCirclingFish className='navbar-icon' />
 							SEA HARVEST
 						</Link>
-						<div className='menu-icon' onClick={handleClick}>
+						<div className='menu-icon navbar-icon' onClick={handleClick}>
 							{click ? <FaTimes /> : <FaBars />}
 						</div>
 
