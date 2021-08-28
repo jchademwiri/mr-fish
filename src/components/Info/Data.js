@@ -10,8 +10,8 @@ export const homeObjOne = {
 	url: '//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18',
 	target: 'blank',
 	imgStart: '',
-	img: 'images/fresh-breams.png',
-	alt: 'single black bream',
+	img: 'images/fish-meal.png',
+	alt: 'fish meal',
 };
 
 export const homeObjTwo = {

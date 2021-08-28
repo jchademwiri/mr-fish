@@ -1,10 +1,10 @@
 import React from 'react';
-import Orders from '../components/PlaceOrder';
+import OrderForm from '../components/OrderForm';
 
 const Order = () => {
 	return (
 		<>
-			<Orders />
+			<OrderForm />
 		</>
 	);
 };

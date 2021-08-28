@@ -68,14 +68,14 @@ const Navbar = () => {
 									Let's Cook
 								</Link>
 							</li>
-							{/* <li className='nav-item'>
+							<li className='nav-item'>
 								<Link
-									to='/about'
+									to='/order'
 									className='nav-links'
 									onClick={closeMobileMenu}>
-									About
+									Order
 								</Link>
-							</li> */}
+							</li>
 							<li className='nav-item'>
 								<Link
 									to='/contact'
@@ -92,7 +92,7 @@ const Navbar = () => {
 										target='blank'
 										rel='noopener noreferrer'>
 										<Button buttonStyle='btn--outline' buttonSize='btn--medium'>
-											Order Now
+											Join WhatsApp
 										</Button>
 									</Link>
 								) : (
@@ -105,7 +105,7 @@ const Navbar = () => {
 											buttonStyle='btn--outline'
 											buttonSize='btn--mobile'
 											onClick={closeMobileMenu}>
-											Order Now
+											Join WhatsApp
 										</Button>
 									</Link>
 								)}

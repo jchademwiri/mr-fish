@@ -19,8 +19,9 @@ const Hero = () => {
 						</Button>
 					</Link>
 					<Link
-						to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
-						target='blank'
+						// to={'//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18'}
+						to='/order'
+						// target='blank'
 						rel='noopener noreferrer'>
 						<Button
 							className='btns'
