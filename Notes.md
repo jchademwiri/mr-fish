@@ -1,4 +1,5 @@
 # Other Details
+$2.5 perkg
 
 ## Locations
 
