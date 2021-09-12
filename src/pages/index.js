@@ -17,23 +17,23 @@ const Home = () => {
 				<link rel='canonical' href='https://www.seaharvest.co.zw' />
 				<meta
 					name='description'
-					content='Sea Harvest brings you fresh fish from Kaiba, a number 1 fresh fish distributor in Zimbabwe'
+					content='Sea Harvest brings you high quality fresh fish from Kaiba, a number 1 fresh fish distributor in Zimbabwe'
 				/>
 
 				<meta property='og:locale' content='en_US' />
 				<meta property='og:type' content='website' />
 				<meta
 					property='og:title'
-					content='Sea Harvest Number 1 fresh fish distributor in Zimbabwe'
+					content='Sea Harvest brings you high quality fresh fish from Kaiba, a number 1 fresh fish distributor in Zimbabwe'
 				/>
 				<meta
 					property='og:description'
-					content='Sea Harvest brings you fresh fish from Kaiba, a number 1 fresh fish distributor in Zimbabwe'
+					content='Sea Harvest brings you high quality fresh fish from Kaiba, a number 1 fresh fish distributor in Zimbabwe'
 				/>
 				<meta property='og:url' content='https://wwwseaharvest.co.zw' />
 				<meta
 					property='og:site_name'
-					content='Sea Harvest Number 1 fresh fish distributor in Zimbabwe'
+					content='Sea Harvest brings you high quality fresh fish from Kaiba, a number 1 fresh fish distributor in Zimbabwe'
 				/>
 				<meta
 					property='article:publisher'
