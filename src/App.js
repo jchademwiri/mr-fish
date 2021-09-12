@@ -9,6 +9,7 @@ import Order from './pages/order';
 // import About from './pages/about';
 import Letscook from './pages/letscook';
 import ScrollToTop from './components/ScrollToTop';
+import Copyright from './components/Copyright';
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 					<Route path='/order' component={Order} />
 				</Switch>
 				<Footer />
+				<Copyright />
 			</Router>
 		</>
 	);
