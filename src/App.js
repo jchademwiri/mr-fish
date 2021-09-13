@@ -6,9 +6,10 @@ import Home from './pages';
 import Footer from './components/Footer';
 import Contact from './pages/contact';
 import Order from './pages/order';
-import About from './pages/about';
+// import About from './pages/about';
 import Letscook from './pages/letscook';
 import ScrollToTop from './components/ScrollToTop';
+import Copyright from './components/Copyright';
 
 function App() {
 	return (
@@ -19,11 +20,12 @@ function App() {
 				<Switch>
 					<Route path='/' exact component={Home} />
 					<Route path='/letscook' component={Letscook} />
-					<Route path='/about' component={About} />
+					{/* <Route path='/about' component={About} /> */}
 					<Route path='/contact' component={Contact} />
 					<Route path='/order' component={Order} />
 				</Switch>
 				<Footer />
+				<Copyright />
 			</Router>
 		</>
 	);

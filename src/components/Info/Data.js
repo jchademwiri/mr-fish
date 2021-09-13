@@ -3,25 +3,25 @@ export const homeObjOne = {
 	lightText: true,
 	lightTextDesc: true,
 	topLine: 'FRESH FISH FROM KARIBA',
-	headline: 'Good Healthy is Life',
+	headline: 'Good Healthy is Life.',
 	description:
-		'We give you the best teasty high quality fresh fish you will ever find in Zimbabwe, fresh fronm kariba to your door front around Mutare.',
+		'We give you the best and tasty high-quality fresh fish you will ever find in Zimbabwe, fresh from Kariba to your door front around Mutare.',
 	buttonLabel: 'Place Order Now',
 	url: '//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18',
 	target: 'blank',
 	imgStart: '',
-	img: 'images/fresh-breams.png',
-	alt: 'single black bream',
+	img: 'images/fish-meal.png',
+	alt: 'fish meal',
 };
 
 export const homeObjTwo = {
 	lightBg: true,
 	lightText: false,
 	lightTextDesc: false,
-	topLine: 'Prepare it Just the way you like.',
+	topLine: 'Prepare it just the way you like.',
 	headline: 'Try different cooking methods.',
 	description:
-		'With our chef who specializes is cooking fish, try other methods from our cooking recepie from our blog for free',
+		'With our chef who specializes in cooking fish, try other methods from our cooking recipes from our blog for free.',
 	buttonLabel: "Let's Get Cooking",
 	url: '/letscook',
 	imgStart: 'start',
@@ -36,7 +36,7 @@ export const homeObjThree = {
 	topLine: 'Prepare it the way you like',
 	headline: 'Tasty & Delicious',
 	description:
-		"Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+		'We give you the best quality of seafood, for your exceptional meal to be delicious.',
 	buttonLabel: 'Start Now',
 	url: '//chat.whatsapp.com/J6gFImaNNRP5fZigXyiv18',
 	target: 'blank',

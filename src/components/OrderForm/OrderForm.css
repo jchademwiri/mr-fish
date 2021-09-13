@@ -1,4 +1,4 @@
-.recipe {
+.order {
 	background: url('/images/prep-bream.jpg') center center/cover no-repeat;
 	width: 100%;
 	height: 100vh;
@@ -9,7 +9,4 @@
 	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 	object-fit: contain;
 	text-align: center;
-}
-h1 {
-	font-size: 4rem;
 }
