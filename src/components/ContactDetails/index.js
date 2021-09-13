@@ -77,8 +77,8 @@ const ContactDetails = () => {
 					</div>
 				</div>
 				<div className='right-container '>
-					<form name='contact-form' method='POST' netlify data-netlify='true'>
-						<input type='hidden' name='form-name' value='contact-form' />
+					<form name='contact' method='POST' data-netlify='true'>
+						<input type='hidden' name='form-name' value='contact' />
 						<div className='contained'>
 							<div className='form'>
 								<input
@@ -86,7 +86,6 @@ const ContactDetails = () => {
 									type='text'
 									name='firstName'
 									id='firstname'
-									autoComplete='off'
 									placeholder=' '
 									required
 								/>
@@ -100,7 +99,6 @@ const ContactDetails = () => {
 									type='text'
 									name='lastname'
 									id='lastname'
-									autoComplete='off'
 									placeholder=' '
 									required
 								/>
@@ -116,7 +114,6 @@ const ContactDetails = () => {
 									type='email'
 									name='email'
 									id='email'
-									autoComplete='off'
 									placeholder=' '
 									required
 								/>
@@ -130,7 +127,6 @@ const ContactDetails = () => {
 									type='tel'
 									name='phone_number'
 									id='phone_number'
-									autoComplete='off'
 									placeholder=' '
 									required
 								/>
@@ -153,6 +149,9 @@ const ContactDetails = () => {
 						</div>
 						<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
 							Send Message
+						</Button>
+						<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
+							Send
 						</Button>
 					</form>
 				</div>
