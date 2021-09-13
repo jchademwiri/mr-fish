@@ -76,8 +76,12 @@ const ContactDetails = () => {
 						</Link> */}
 					</div>
 				</div>
-				<div className='right-container '>
-					<form name='contact' method='POST' data-netlify='true'>
+				{/* <div className='right-container '>
+					<form
+						name='contact'
+						method='post'
+						data-netlify='true'
+						onSubmit='submit'>
 						<input type='hidden' name='form-name' value='contact' />
 						<div className='contained'>
 							<div className='form'>
@@ -150,11 +154,8 @@ const ContactDetails = () => {
 						<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
 							Send Message
 						</Button>
-						<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
-							Send
-						</Button>
 					</form>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
