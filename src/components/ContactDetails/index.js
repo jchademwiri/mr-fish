@@ -77,7 +77,7 @@ const ContactDetails = () => {
 					</div>
 				</div>
 				<div className='right-container '>
-					<form name='contact-form' method='POST' data-netlify='true'>
+					<form name='contact-form' method='POST' netlify data-netlify='true'>
 						<input type='hidden' name='form-name' value='contact-form' />
 						<div className='contained'>
 							<div className='form'>
