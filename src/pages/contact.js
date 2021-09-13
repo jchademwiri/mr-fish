@@ -120,7 +120,8 @@ const Contact = () => {
 							name='contact'
 							method='POST'
 							data-netlify='true'
-							onSubmit='submit'>
+							onSubmit='submit'
+							netlify>
 							<input type='hidden' name='form-name' value='contact' />
 							<div className='contained'>
 								<div className='form'>
