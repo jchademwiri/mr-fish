@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../Button';
+// import { Button } from '../Button';
 import './ContactDetails.css';
 import { Link } from 'react-router-dom';
 import {
@@ -11,6 +11,7 @@ import {
 	FaEnvelope,
 	FaLocationArrow,
 } from 'react-icons/fa';
+import Form from '../Form';
 
 const ContactDetails = () => {
 	return (
@@ -80,7 +81,8 @@ const ContactDetails = () => {
 						</div>
 					</div>
 					<div className='right-container '>
-						<form
+						<Form />
+						{/* <form
 							name='contact'
 							method='POST'
 							data-netlify='true'
@@ -157,8 +159,10 @@ const ContactDetails = () => {
 							</div>
 							<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
 								Send Message
-							</Button>
+							</Button> 
+							
 						</form>
+							*/}
 					</div>
 				</div>
 			</div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Form from '../components/Form';
+// import Form from '../components/Form';
 
-// import ContactDetails from '../components/ContactDetails';
+import ContactDetails from '../components/ContactDetails';
 
 import Location from '../components/Location';
 
@@ -39,8 +39,8 @@ const Contact = () => {
 				/>
 			</Helmet>
 			<Location />
-			{/* <ContactDetails /> */}
-			<Form />
+			<ContactDetails />
+			{/* <Form /> */}
 		</>
 	);
 };
