@@ -150,9 +150,6 @@ const ContactDetails = () => {
 						<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
 							Send Message
 						</Button>
-						<Button buttonSize='btn--wide' buttonColor='blue' type='submit'>
-							Send
-						</Button>
 					</form>
 				</div>
 			</div>
