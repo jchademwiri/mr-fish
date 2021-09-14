@@ -4,8 +4,16 @@ import { Button } from '../Button';
 const Form = () => {
 	return (
 		<>
-			<form name='contact' method='post'>
-				<input type='hidden' name='form-name' value='contact' />
+			<form
+				name='Contact Form V1'
+				method='post'
+				netlify
+				netlify-honeypot='bot-field'
+				hidden>
+				<input type='hidden' name='form-name' value='Contact Form V1' />
+				<div hidden>
+					<input name='bot-filed' />
+				</div>
 				<div className='contained'>
 					<div className='form'>
 						<input
@@ -78,7 +86,6 @@ const Form = () => {
 					Send Message
 				</Button>
 			</form>
-			
 		</>
 	);
 };
