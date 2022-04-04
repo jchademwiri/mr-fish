@@ -6,9 +6,7 @@ import App from './App';
 if (module.hot) {
 	module.hot.accept();
 }
-ReactDOM.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
-	document.getElementById('root')
-);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+// );
